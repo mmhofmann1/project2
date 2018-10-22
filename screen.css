@@ -11,13 +11,26 @@ html {
   font-size: 1.125em;
   line-height: 1.222em;
   padding: 0 1em;
-  background-image: url(cssbackground.png);
 }
 
-h1, h2{
+h1{
+  font-size: 2.25em;
+  padding: .5em 0 0 0;
+  line-height: 1em;
+}
+
+h2{
   font-size: 2.25em;
   padding: .5em 0;
   line-height: 1em;
+}
+
+.degree {
+  padding: .5em 0 0 0;
+}
+
+.dogtitle {
+  padding: .5em 0;
 }
 
 div.header{
@@ -37,6 +50,10 @@ ul.contactinfo{
 ul:not(.contactinfo){
   margin-left: .938em;
   list-style-type: disc!important;
+}
+
+.games {
+  padding: 1em 0;
 }
 
 @media screen and (min-width: 600px) {
