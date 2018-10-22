@@ -14,14 +14,10 @@ html {
   background-image: url(cssbackground.png);
 }
 
-h1{
-  font-size: 3.375em;
-  padding: .5em 0;
-}
-
-h2{
+h1, h2{
   font-size: 2.25em;
   padding: .5em 0;
+  line-height: 1em;
 }
 
 div.header{
@@ -32,12 +28,16 @@ h1, h2, h3, h4 {
   font-weight: bold;
 }
 
-ul.quick-facts li{
-  display: list-item;
-  margin-left: 15px;
-  list-style-type: disc!important;
+ul.contactinfo{
+  font-weight: bold;
+  list-style: none;
+  padding: 1em 0;
 }
 
+ul:not(.contactinfo){
+  margin-left: .938em;
+  list-style-type: disc!important;
+}
 
 @media screen and (min-width: 600px) {
 
