@@ -25,6 +25,17 @@ h2{
   line-height: 1em;
 }
 
+img {
+  transform: rotate(90deg);
+  width: 30%;
+  height: 30%;
+  padding: 5% 0;
+}
+
+.couchpic {
+  padding: 0 0 .5em 0;
+}
+
 .degree {
   padding: .5em 0 0 0;
 }
