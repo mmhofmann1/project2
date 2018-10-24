@@ -27,12 +27,14 @@ h2{
 
 img {
   transform: rotate(90deg);
-  width: 30%;
-  height: 30%;
-  padding: 5% 0;
+  width: 60%;
+  height: 60%;
+  padding: 10% 0;
 }
 
 .couchpic {
+  display: flex;
+  flex-direction: column;
   padding: 0 0 .5em 0;
 }
 
@@ -68,9 +70,15 @@ ul:not(.contactinfo){
 }
 
 @media screen and (min-width: 600px) {
-
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 }
 
-@media screen and (min-width: 600px) {
-
+@media screen and (min-width: 1000px) {
+h1 {
+  text-align: center;
+}
 }
