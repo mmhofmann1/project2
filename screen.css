@@ -11,6 +11,7 @@ html {
   font-size: 1.125em;
   line-height: 1.222em;
   padding: 0 1em;
+  background-color: #759DB0;
 }
 
 h1{
@@ -52,12 +53,14 @@ div.header{
 
 h1, h2, h3, h4 {
   font-weight: bold;
+  color: #EEF4F7;
 }
 
 ul.contactinfo{
   font-weight: bold;
   list-style: none;
   padding: 1em 0;
+  color: #EEF4F7;
 }
 
 ul:not(.contactinfo){
