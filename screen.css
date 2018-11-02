@@ -78,10 +78,14 @@ ul:not(.contactinfo){
     margin-left: auto;
     margin-right: auto;
   }
+
+  h1, h2, h3 {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 1000px) {
-  h1 {
+  html {
     text-align: center;
   }
 }
