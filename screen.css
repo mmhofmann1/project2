@@ -14,6 +14,11 @@ html {
   background-color: #759DB0;
 }
 
+h1, h2, h3, h4 {
+  font-weight: bold;
+  color: #EEF4F7;
+}
+
 h1{
   font-size: 2.25em;
   padding: .5em 0 0 0;
@@ -27,10 +32,9 @@ h2{
 }
 
 img {
-  transform: rotate(90deg);
-  width: 60%;
-  height: 60%;
-  padding: 10% 0;
+  width: 80%;
+  height: 80%;
+  padding: 5% 0;
 }
 
 .couchpic {
@@ -49,11 +53,6 @@ img {
 
 div.header{
   font-weight: bold;
-}
-
-h1, h2, h3, h4 {
-  font-weight: bold;
-  color: #EEF4F7;
 }
 
 ul.contactinfo{
