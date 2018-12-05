@@ -72,6 +72,7 @@ ul:not(.contactinfo){
 }
 
 nav ul {
+ display: block;
  list-style-type: none;
  background-color: #EEF4F7;
  margin: 0;
