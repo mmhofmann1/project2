@@ -71,6 +71,26 @@ ul:not(.contactinfo){
   padding: 1% 0;
 }
 
+nav ul {
+ list-style-type: none;
+ background-color: #EEF4F7;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+
+}
+
+nav ul a{
+  display: inline;
+  text-align: center;
+  padding: 1%;
+  color: black;
+}
+
+nav ul a:hover {
+  background-color: #759DB0;
+}
+
 @media screen and (min-width: 600px) {
   .couchpic {
     margin-left: auto;
