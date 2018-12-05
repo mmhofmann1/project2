@@ -77,14 +77,15 @@ nav ul {
  margin: 0;
  padding: 0;
  overflow: hidden;
-
+text-align: center;
 }
 
 nav ul a{
   display: inline;
   text-align: center;
-  padding: 1%;
+  padding: 10.1%;
   color: black;
+  text-decoration: none;
 }
 
 nav ul a:hover {
