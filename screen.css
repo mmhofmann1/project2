@@ -66,11 +66,17 @@ ul:not(.contactinfo){
   padding: 1em 0;
 }
 
+.dogcaption {
+  text-align: center;
+  padding: 1% 0;
+}
+
 @media screen and (min-width: 600px) {
-  img{
-    display: block;
+  .couchpic {
     margin-left: auto;
     margin-right: auto;
+    height: 80%;
+    width: 80%;
   }
 
   h1{
@@ -79,5 +85,9 @@ ul:not(.contactinfo){
 }
 
 @media screen and (min-width: 1000px) {
+.couchpic {
+  height: 35%;
+  width: 35%;
+}
 
 }
