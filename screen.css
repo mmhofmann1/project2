@@ -73,13 +73,11 @@ ul:not(.contactinfo){
     margin-right: auto;
   }
 
-  h1, h2, h3 {
+  h1{
     text-align: center;
   }
 }
 
 @media screen and (min-width: 1000px) {
-  html {
-    text-align: center;
-  }
+
 }
