@@ -32,15 +32,14 @@ h2{
 }
 
 img {
-  width: 80%;
-  height: 80%;
-  padding: 5% 0;
+  display: block;
+  max-width: 100%;
 }
 
 .couchpic {
   display: flex;
   flex-direction: column;
-  padding: 0 0 .5em 0;
+  padding: 5% 0;
 }
 
 .degree {
