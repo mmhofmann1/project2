@@ -6,3 +6,8 @@ document.getElementById('menub').addEventListener("click", function() {
 });
 
 //listener for toggling dog gallery
+document.getElementById('dogb').addEventListener("click", function() {
+  if (gallery.style.display === "none") {
+    gallery.style.display = "flex"}
+    else gallery.style.display = "none";
+});

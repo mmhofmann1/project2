@@ -43,7 +43,7 @@ img {
 }
 
 #gallery {
-  display: flex;
+  display: none;
   flex-direction: row;
   padding: 5% 0;
   flex-wrap: wrap;
