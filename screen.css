@@ -97,11 +97,25 @@ text-align: center;
   color: black;
   background-color: #EEF4F7;
   cursor: pointer;
-  padding: 0 1%;
+  padding: 0.5% 1%;
 }
 
 #dogfoot {
   padding: 2% 0 0 0;
+}
+
+#dogb {
+  color: black;
+  background-color: #EEF4F7;
+  cursor: pointer;
+  padding: 0.5% 1%;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#dog1 {
+  padding: 5% 0 0 0;
 }
 
 @media screen and (min-width: 600px) {
@@ -119,7 +133,7 @@ text-align: center;
   #links a{
     padding: 5%;
   }
-  ]
+
 }
 
 @media screen and (min-width: 1000px) {
@@ -130,6 +144,12 @@ text-align: center;
 
 #links a{
   padding: 10.1%;
+}
+
+#dogb {
+  width: 20%;
+  margin-left: 40%;
+  margin-right: 40%;
 }
 
 }
