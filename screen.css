@@ -7,6 +7,7 @@
 a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 /* stylelint-enable */
 
+/* Base styles */
 html {
   font-size: 1.125em;
   line-height: 1.222em;
@@ -36,18 +37,7 @@ img {
   max-width: 100%;
 }
 
-.couchpic {
-  display: flex;
-  flex-direction: column;
-  padding: 5% 0;
-}
-
-#gallery {
-  display: none;
-  flex-direction: row;
-  padding: 5% 0;
-  flex-wrap: wrap;
-}
+/* Text Format */
 
 .degree {
   padding: .5em 0 0 0;
@@ -78,6 +68,14 @@ ul:not(.contactinfo){
   padding: 1% 0;
 }
 
+/* Image Layout */
+.couchpic {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 0;
+}
+
+/* navigation menu layout */
 #links {
  display: none;
  list-style-type: none;
@@ -107,6 +105,14 @@ text-align: center;
   padding: 0.5% 1%;
 }
 
+/* dog gallery layout */
+#gallery {
+  display: none;
+  flex-direction: row;
+  padding: 5% 0;
+  flex-wrap: wrap;
+}
+
 #dogfoot {
   padding: 2% 0 0 0;
 }
@@ -125,6 +131,7 @@ text-align: center;
   padding: 5% 0 0 0;
 }
 
+/* Media queries for different views */
 @media screen and (min-width: 600px) {
   .couchpic {
     margin-left: auto;
